@@ -1,4 +1,8 @@
 
+body{
+    padding-top: 70px;
+}
+
 .story-profile-photo {
     width: 56px;
     height: 56px;
@@ -26,28 +30,12 @@
 .logo{
     margin-left: 192px;
 }
-.collapse{
-    margin-left: 5px;
-    display: flex;
-}
+
 .navbar-nav{
     margin-left: 5px;
     margin-top: 2px;
 }
-.card-body{
-    margin-top: 54px;
-    flex-direction: row;
-    flex: 1;
-    justify-content: space-between;
 
-}
-::placeholder{
-    text-align: center;
-    font-size: 14px;
-    color: gray;
-    background-position: 40%;
-    background-size: 6%;
-}
 .middlearea {
     max-height: 200px !important;
 }  
@@ -64,3 +52,6 @@
     color: black;
     text-align: center;
   }
+#sticky-sidebar {
+    position: fixed;
+}
